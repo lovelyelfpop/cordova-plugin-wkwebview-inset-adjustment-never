@@ -1,0 +1,23 @@
+
+{
+  "name": "cordova-plugin-wkwebview-inset-adjustment-never",
+  "description": "WKWebview UIScrollViewContentInsetAdjustmentNever",
+  "version": "0.0.1",
+  "homepage": "",
+  "cordova": {
+    "id": "cordova-plugin-wkwebview-inset-adjustment-never",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=9.0.0"
+    }
+  ],
+  "author": "lovelyelfpop",
+  "license": "MIT",
+  "scripts": {
+  }
+}

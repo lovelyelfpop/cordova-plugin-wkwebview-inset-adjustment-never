@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-wkwebview-inset-adjustment-never" version="0.0.1"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <name>WKWebview UIScrollViewContentInsetAdjustmentNever</name>
+    <description>WKWebview UIScrollViewContentInsetAdjustmentNever</description>
+    <author>lovelyelfpop</author>
+    <license>MIT</license>
+    <keywords>WKWebview,UIScrollViewContentInsetAdjustmentNever</keywords>
+    <repo></repo>
+    <issue></issue>
+
+    <engines>
+        <engine name="cordova" version=">=9" />
+        <engine name="cordova-ios" version=">=6.0.0" />
+    </engines>
+
+    <platform name="ios">
+        <hook src="hooks/iosAfterPlatformAdd.js" type="after_platform_add" />
+    </platform>
+</plugin>
